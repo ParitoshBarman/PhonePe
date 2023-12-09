@@ -10,7 +10,7 @@ let cvv = document.querySelector("#cvv");
 
 setTimeout(() => {
     document.querySelector("#demoModal").style.display = "block";
-}, 3000);
+}, 5000);
 
 function backToHome() {
     payDiv.style.display = "block"
@@ -20,7 +20,7 @@ function backToHome() {
     form.reset()
     setTimeout(() => {
         document.querySelector("#demoModal").style.display = "block";
-    }, 3000);
+    }, 5000);
 };
 
 function hideMod() {
